@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Indie Flower', cursive;
+}
+.hname h5{
+	font-size: 15px;
+	text-shadow: 1px 1px #b9b9b9;
+}
+nav{
+	background-color: #c19e4c;
+	color: white;
+}
+nav li{
+	list-style-type: none;
+	text-shadow: 1px 1px #b9b9b9;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: solid color#b9b9b9 ;
+
+}
+.tagline{
+	background-image: url(../images/tagline2.png);
+	background-size: cover;
+	height: 100vh;
+	padding-left: 0;
+	width: 100%;
+}
+.tag h1{
+	font-size: 68px;
+	width: 100%;
+}
+h4{
+	font-weight: bolder;
+	font-size: 20px;
+}
+.text{
+	color: #0085b0;
+}
+.col-6 .contact{
+	color: #0085b0;
+	text-align: justify;
+
+}
+.col-4 .address{
+	color: #0085b0;
+	text-align: justify;
+}
+.col-3 .button{
+	border-radius: 5%;
+	width: 10%;
+	text-align: left;
+}
+.btn1{
+	background: blue;
+	color: white;
+	padding: 5px;
+	float: left;
+}

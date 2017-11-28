@@ -1,0 +1,1 @@
+En el html debo armar un header con nav con menú de navegación,en el header irá el título ("name tagline"), luego una section con un botón y número de contacto, junto con 3 tarjetas con botonesla página debe tener 1920 de weigth por 400 de heigth (idealmente)
