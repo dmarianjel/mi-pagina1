@@ -1,14 +1,27 @@
-/*@media (min-width: 1200px){
-	[class*= "col-"]{
-		width: 100%;
+
+@media (min-width: 992px) and (max-width: 1199px){
+	[class*= "col-4" and class*="col-12"]{
+		width: 50%;
+		box-sizing: border-box;
 	}
-	.gatito{
-		content:url(../images/kitten-medium.png);
-		padding-left: 30%;
-		padding-top: 6%;	
+	.images{
+		width: 250px;
+		height: auto;
+		box-sizing: border-box;
+	}
+}		
+@media (min-width: 576px) and (max-width: 767px){
+	[class*= "col-4" and class*="col-12"]{
+		width: 30%;
+		box-sizing: border-box;
+	}
+	.images{
+		width: 200px;
+		height: 112px;
+		box-sizing: border-box;
 	}	
 }
-@media (min-width: 	992px) and (max-width: 1200px){
+@media (min-width: 	768px) and (max-width: 1200px){
 	[class*= "col-"]{
 		width: 100%;
 	}

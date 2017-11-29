@@ -71,7 +71,7 @@ address{
 	color: white;
 	padding: 5px;
 }
-#cards img{
+.images{
 	width: 300px;
 	height: 200px;
 }
